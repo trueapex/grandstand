@@ -5,7 +5,7 @@ A Drupal 8 eCommerce theme.
 * RVM (https://rvm.io/)
 * Ruby https://www.ruby-lang.org/en/
 
-## User Guide
+## Setup
 ### Install RVM
 Follow instructions at https://rvm.io/rvm/install for installing RVM.
 
@@ -57,3 +57,17 @@ Install Gems
 ```
 $ bundle install
 ```
+
+## Developing
+Compiling SCSS.
+```
+$ compass compile
+```
+
+Or, what SCSS.
+```
+$ compass watch
+```
+
+## Contributors
+* Romualdo Dasig (https://github.com/dasigr)
