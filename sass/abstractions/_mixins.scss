@@ -1,0 +1,15 @@
+@mixin transform-center-full() {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  -moz-transform:    translate(-50%, -50%) scale(1);
+  -ms-transform:     translate(-50%, -50%) scale(1);
+  -o-transform:      translate(-50%, -50%) scale(1);
+  transform:         translate(-50%, -50%) scale(1);
+}
+
+@mixin transform-center-small() {
+  -webkit-transform: translate(-50%, -50%) scale(.1);
+  -moz-transform:    translate(-50%, -50%) scale(.1);
+  -ms-transform:     translate(-50%, -50%) scale(.1);
+  -o-transform:      translate(-50%, -50%) scale(.1);
+  transform:         translate(-50%, -50%) scale(.1);
+}

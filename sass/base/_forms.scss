@@ -1,0 +1,22 @@
+select {
+  background-color: #F5F7F8;
+  background-image: url('../icons/select-icon.png');
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  background-size: 12px;
+  border: 2px solid #E4E4E2;
+  cursor: pointer;
+  min-width: 75px;
+  transition: border-color 0.4s ease 0s;
+  z-index: 1;
+  padding: 7px 25px 8px 10px;
+  @include border-radius(4px);
+  @include appearance('none');
+}
+
+@include breakpoint($screen-xs-min) {
+  select {
+    width: auto;
+    max-width: 305px;
+  }
+}

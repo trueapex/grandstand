@@ -1,0 +1,124 @@
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.md_no-touch {
+  a {
+    &:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+ 
+	.col-md-3 {
+		&.not-aligned {
+			position: absolute;
+			width: 300px;
+			display: none;
+		}
+		@media (min-width: $screen-sm-min) {
+			&.not-aligned {
+				z-index: 15;
+				padding-left: 0px !important;
+				margin-left: -2px;
+				display: block;
+				transform: translate(-283px,0);
+				.region-left-sidebar {
+					opacity: 0.9;
+				}
+				.categories-trigger {
+					float: right;
+					height: 201px;
+					width: 50px;
+					background: #232323;
+					border-left: 2px solid #a8201b;
+					border-radius: 0px 5px 5px 0;
+					display: block;
+					h3 {
+						@include transform(rotate(90deg));
+						color:	#fff;
+						padding-left: 32px;
+					}
+				}
+			}
+		}
+		@media (min-width: $screen-xl-min) {
+			&.not-aligned {
+				margin-left: 0;
+				transform: translate(0,0);
+				.categories-trigger {
+					display: none;
+				}
+			}
+		}
+	}
+	.categories-trigger {
+		display: none;
+	}
+	@media (min-width: $screen-sm-min) {
+		.categories-trigger {
+			float: left;
+			height: 201px;
+			width: 50px;
+			background: #232323;
+			border-left: 2px solid #a8201b;
+			border-radius: 0px 5px 5px 0;
+			display: block;
+			z-index: 5;
+			position: absolute;
+			cursor: pointer;
+			h3 {
+				@include transform(rotate(90deg));
+				color:	#fff;
+				padding-left: 32px;
+			}
+		}
+		.categories-trigger-2 {
+			float: right;
+			height: 201px;
+			width: 50px;
+			background: #232323;
+			border-left: 2px solid #a8201b;
+			border-radius: 0px 5px 5px 0;
+			display: block;
+			z-index: 5;
+			h3 {
+				@include transform(rotate(90deg));
+				color:	#fff;
+				padding-left: 32px;
+			}
+		}
+	}
+	@media (min-width: $screen-xl-min) {
+		.categories-trigger, .categories-trigger-2 {
+			display: none;
+		}
+	}
+	.wrapper {
+		.col-md-3 {
+			display: none;
+		}
+		.col-lg-9 {
+			width: 100%;
+		}
+		@media (min-width: $screen-md-min) {
+			.col-lg-9 {
+				width: 100%;
+			}
+		}
+	}
+
+.ssm-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.2);
+    display: none;
+    z-index: 10;
+}

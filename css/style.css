@@ -1,0 +1,58 @@
+body.path-user.user-not-logged-in #content .region {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+body.path-contact #content .region {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.product-full {
+  display: table;
+  box-sizing: border-box;
+  width: 100%;
+  clear: both;
+}
+
+div[class^="product--variation"].field--name-field-product-image .field__item {
+  float: left;
+  margin-right: 10px;
+}
+
+[class^="product--variation"].field--name-field-product-image .field__item:first-child {
+  float: none;
+}
+
+.product-image {
+  float: left;
+  width: 33.33%;
+}
+
+.product-details {
+  float: left;
+  width: 66.67%;
+}
+
+.field--name-sku {
+  color: #a0a0a0;
+  margin: 0 0 1.2em 0;
+}
+
+.field--name-price {
+  font-size: 1.5em;
+  margin: 0 0 0.75em 0;
+}
+
+.view-products {
+  display: table;
+  box-sizing: border-box;
+  clear: both;
+  width: 100%;
+}
+
+.view-products .views-row {
+  display: block;
+  float: left;
+  width: 25%;
+}

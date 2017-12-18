@@ -1,0 +1,8 @@
+// WARNING: In order to avoid variable namspace collisions, we have updated the way to change settings for Breakpoint.
+// Please change all instances of `$breakpoint-no-queries: {{setting}}` to `@include breakpoint-set('no queries', {{setting}})`.
+// Variable settings, as well as this warning will be deprecated in a future release.
+//$breakpoint-no-queries: true;
+//$breakpoint-no-query-fallbacks: true;
+
+// Re-render everything from styles.scss but without media queries.
+@import "grandstand.styles";

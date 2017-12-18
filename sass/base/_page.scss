@@ -1,0 +1,28 @@
+.page_content_offset{
+  padding: 0;
+  
+  @media (min-width: $screen-md-min) {
+    padding: 0 0 60px;
+  }
+}
+
+h2.page-title {
+	line-height: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.main-wrapper {
+	margin-top: 20px;
+}
+
+.wrapper {
+	.col-lg-9 {
+		&.active {
+			min-height: 2160px;
+		}
+		@media (min-width: $screen-xl-min) {
+			min-height: 2160px;
+		}
+	}
+}
