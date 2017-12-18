@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,WAAY;EACV,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,GAAG",
+"sources": ["../../sass/components/page-title.scss"],
+"names": [],
+"file": "page-title.css"
+}

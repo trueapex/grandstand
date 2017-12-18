@@ -2,28 +2,37 @@
  * @file
  * Visual styles for the Shortcut action link in Bartik.
  */
-
+/* line 6, ../../sass/components/shortcut.scss */
 .shortcut-wrapper {
-  margin: 2.2em 0 1.1em 0; /* Same as usual .page-title margin. */
-}
+  margin: 2.2em 0 1.1em 0;
+  /* Same as usual .page-title margin. */ }
+
+/* line 9, ../../sass/components/shortcut.scss */
 .shortcut-wrapper .page-title {
-  float: left; /* LTR */
-  margin: 0;
-}
+  float: left;
+  /* LTR */
+  margin: 0; }
+
+/* line 13, ../../sass/components/shortcut.scss */
 [dir="rtl"] .shortcut-wrapper .page-title {
-  float: right;
-}
+  float: right; }
+
+/* line 16, ../../sass/components/shortcut.scss */
 .shortcut-action {
   border-bottom: none;
-  margin-left: 0.5em; /* LTR */
-  padding-top: 0.35em;
-}
+  margin-left: 0.5em;
+  /* LTR */
+  padding-top: 0.35em; }
+
+/* line 21, ../../sass/components/shortcut.scss */
 [dir="rtl"] .shortcut-action {
   margin-left: 0;
-  margin-right: 0.5em;
-}
+  margin-right: 0.5em; }
+
+/* line 25, ../../sass/components/shortcut.scss */
 .shortcut-action:hover,
 .shortcut-action:active,
 .shortcut-action:focus {
-  border-bottom: none;
-}
+  border-bottom: none; }
+
+/*# sourceMappingURL=shortcut.css.map */

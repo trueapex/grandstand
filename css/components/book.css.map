@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,sBAAuB;EACrB,UAAU,EAAE,iBAAiB;;;AAE/B,4BAA6B;EAC3B,aAAa,EAAE,iBAAiB;EAChC,UAAU,EAAE,iBAAiB;EAC7B,MAAM,EAAE,CAAC",
+"sources": ["../../sass/components/book.scss"],
+"names": [],
+"file": "book.css"
+}

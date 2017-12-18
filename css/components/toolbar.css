@@ -2,7 +2,8 @@
  * @file
  * Toolbar module overrides for Bartik.
  */
-
+/* line 6, ../../sass/components/toolbar.scss */
 .toolbar a {
-  border-bottom: none;
-}
+  border-bottom: none; }
+
+/*# sourceMappingURL=toolbar.css.map */

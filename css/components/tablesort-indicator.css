@@ -2,16 +2,19 @@
  * @file
  * Tablesort indicator styles.
  */
-
+/* line 6, ../../sass/components/tablesort-indicator.scss */
 .tablesort {
   width: 14px;
   height: 14px;
   vertical-align: top;
-  margin: 1px 0 0 5px;
-}
+  margin: 1px 0 0 5px; }
+
+/* line 12, ../../sass/components/tablesort-indicator.scss */
 .tablesort--asc {
-  background-image: url(../../../../misc/icons/ffffff/twistie-down.svg);
-}
+  background-image: url(../../../../misc/icons/ffffff/twistie-down.svg); }
+
+/* line 15, ../../sass/components/tablesort-indicator.scss */
 .tablesort--desc {
-  background-image: url(../../../../misc/icons/ffffff/twistie-up.svg);
-}
+  background-image: url(../../../../misc/icons/ffffff/twistie-up.svg); }
+
+/*# sourceMappingURL=tablesort-indicator.css.map */

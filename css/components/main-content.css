@@ -2,50 +2,63 @@
  * @file
  * Visual styles for Bartik's main-content component.
  */
-
+/* line 6, ../../sass/components/main-content.scss */
 .main-content .section {
-  padding: 0 15px;
-}
+  padding: 0 15px; }
+
+/* line 9, ../../sass/components/main-content.scss */
 .main-content h2 {
   margin-bottom: 2px;
   font-size: 1.429em;
-  line-height: 1.4;
-}
+  line-height: 1.4; }
 
 @media all and (min-width: 851px) {
+  /* line 16, ../../sass/components/main-content.scss */
   .main-content {
-    float: left; /* LTR */
-    position: relative;
-  }
+    float: left;
+    /* LTR */
+    position: relative; }
+
+  /* line 20, ../../sass/components/main-content.scss */
   [dir="rtl"] .main-content {
-    float: right;
-  }
+    float: right; }
+
+  /* line 23, ../../sass/components/main-content.scss */
   .layout-two-sidebars .main-content {
     margin-left: 25%;
     margin-right: 25%;
-    width: 50%;
-  }
+    width: 50%; }
+
+  /* line 28, ../../sass/components/main-content.scss */
   .layout-one-sidebar .main-content {
-    width: 75%;
-  }
+    width: 75%; }
+
+  /* line 31, ../../sass/components/main-content.scss */
   .layout-no-sidebars .main-content {
-    width: 100%;
-  }
+    width: 100%; }
+
+  /* line 34, ../../sass/components/main-content.scss */
   .layout-sidebar-first .main-content {
-    margin-left: 25%; /* LTR */
-    margin-right: 0; /* LTR */
-  }
+    margin-left: 25%;
+    /* LTR */
+    margin-right: 0;
+    /* LTR */ }
+
+  /* line 38, ../../sass/components/main-content.scss */
   [dir="rtl"] .layout-sidebar-first .main-content {
     margin-left: 0;
-    margin-right: 25%;
-  }
+    margin-right: 25%; }
+
+  /* line 42, ../../sass/components/main-content.scss */
   .layout-sidebar-second .main-content {
-    margin-right: 25%; /* LTR */
-    margin-left: 0; /* LTR */
-  }
+    margin-right: 25%;
+    /* LTR */
+    margin-left: 0;
+    /* LTR */ }
+
+  /* line 46, ../../sass/components/main-content.scss */
   [dir="rtl"] .layout-sidebar-second .main-content {
     margin-right: 0;
-    margin-left: 25%;
-  }
-}
+    margin-left: 25%; } }
 
+/*# sourceMappingURL=main-content.css.map */

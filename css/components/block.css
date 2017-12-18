@@ -2,8 +2,9 @@
  * @file
  * Visual styles for Bartik's blocks.
  */
-
 /* Block has its own content wrapper. */
+/* line 7, ../../sass/components/block.scss */
 .block .content {
-  margin-top: 10px;
-}
+  margin-top: 10px; }
+
+/*# sourceMappingURL=block.css.map */

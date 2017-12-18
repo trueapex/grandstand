@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,gBAAiB;EACf,WAAW,EAAE,8CAA8C",
+"sources": ["../../sass/components/ui.widget.scss"],
+"names": [],
+"file": "ui.widget.css"
+}

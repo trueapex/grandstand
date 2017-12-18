@@ -2,14 +2,15 @@
  * @file
  * Styles for menus in Bartik.
  */
-
 /* This is needed to override ul.menu styles in menu.theme.css */
+/* line 7, ../../sass/components/menu.scss */
 ul.menu {
   margin: 0;
-  padding: 0 0 0.25em 1em;
-}
+  padding: 0 0 0.25em 1em; }
 
 /* This is needed to override [dir="rtl"] ul.menu styles in menu.theme.css */
+/* line 13, ../../sass/components/menu.scss */
 [dir="rtl"] ul.menu {
-  margin: 0;
-}
+  margin: 0; }
+
+/*# sourceMappingURL=menu.css.map */

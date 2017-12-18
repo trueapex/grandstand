@@ -2,22 +2,25 @@
  * @file
  * Overall specifications for Grandstand.
  */
-
+/* line 6, ../../sass/base/elements.scss */
 html {
-  height: 100%;
-}
+  height: 100%; }
+
+/* line 9, ../../sass/base/elements.scss */
 body {
   min-height: 100%;
   line-height: 1.5;
   word-wrap: break-word;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 87.5%;
-}
+  font-size: 87.5%; }
+
+/* line 16, ../../sass/base/elements.scss */
 a,
 a.link {
   text-decoration: none;
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
+
+/* line 21, ../../sass/base/elements.scss */
 a:hover,
 a:active,
 a:focus,
@@ -25,128 +28,154 @@ a:focus,
 .link:active,
 .link:focus {
   text-decoration: none;
-  border-bottom-style: solid;
-}
+  border-bottom-style: solid; }
+
+/* line 30, ../../sass/base/elements.scss */
 .link {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 33, ../../sass/base/elements.scss */
 h1 a,
 h2 a {
-  border-bottom: none;
-}
+  border-bottom: none; }
 
 /**
  * Reusable heading classes are included to help modules change the styling of
  * headings on a page without affecting accessibility.
  */
+/* line 42, ../../sass/base/elements.scss */
 h1,
 .heading-a {
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
   font-size: 1.357em;
-  color: #000;
-}
+  color: #000; }
+
+/* line 49, ../../sass/base/elements.scss */
 h2,
 .heading-b {
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
-  font-size: 1.143em;
-}
+  font-size: 1.143em; }
+
+/* line 55, ../../sass/base/elements.scss */
 h3,
 .heading-c {
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
-  font-size: 1.092em;
-}
+  font-size: 1.092em; }
+
+/* line 61, ../../sass/base/elements.scss */
 h4,
 .heading-d {
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
-  font-size: 1.05em;
-}
+  font-size: 1.05em; }
+
+/* line 67, ../../sass/base/elements.scss */
 h5,
 .heading-e {
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
   font-size: 0.889em;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
+  letter-spacing: 0.1em; }
+
+/* line 75, ../../sass/base/elements.scss */
 h6,
 .heading-f {
   margin: 1.0em 0 0.5em;
   font-weight: inherit;
   font-size: 0.67em;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-p {
-  margin: 0 0 1.2em;
-}
-del {
-  text-decoration: line-through;
-}
+  letter-spacing: 0.1em; }
 
+/* line 83, ../../sass/base/elements.scss */
+p {
+  margin: 0 0 1.2em; }
+
+/* line 86, ../../sass/base/elements.scss */
+del {
+  text-decoration: line-through; }
+
+/* line 90, ../../sass/base/elements.scss */
 blockquote {
   background: #f7f7f7;
-  border-left: 1px solid #bbb; /* LTR */
+  border-left: 1px solid #bbb;
+  /* LTR */
   font-style: italic;
   margin: 1.5em 10px;
-  padding: 0.5em 10px;
-}
+  padding: 0.5em 10px; }
+
+/* line 97, ../../sass/base/elements.scss */
 [dir="rtl"] blockquote {
   border-left: none;
-  border-right: 1px solid #bbb;
-}
+  border-right: 1px solid #bbb; }
+
+/* line 101, ../../sass/base/elements.scss */
 blockquote:before {
   color: #bbb;
   content: "\201C";
   font-size: 3em;
   line-height: 0.1em;
-  margin-right: 0.2em; /* LTR */
-  vertical-align: -0.4em;
-}
+  margin-right: 0.2em;
+  /* LTR */
+  vertical-align: -0.4em; }
+
+/* line 109, ../../sass/base/elements.scss */
 [dir="rtl"] blockquote:before {
   content: "\201D";
   margin-left: 0.2em;
-  margin-right: 0;
-}
+  margin-right: 0; }
+
+/* line 114, ../../sass/base/elements.scss */
 blockquote:after {
   color: #bbb;
   content: "\201D";
   font-size: 3em;
   line-height: 0.1em;
-  vertical-align: -0.45em;
-}
+  vertical-align: -0.45em; }
+
+/* line 121, ../../sass/base/elements.scss */
 [dir="rtl"] blockquote:after {
-  content: "\201C";
-}
+  content: "\201C"; }
+
+/* line 124, ../../sass/base/elements.scss */
 blockquote > p:first-child {
-  display: inline;
-}
+  display: inline; }
+
+/* line 127, ../../sass/base/elements.scss */
 .feed-icon {
   display: block;
-  margin: 25px 0 0 0;
-}
+  margin: 25px 0 0 0; }
+
+/* line 131, ../../sass/base/elements.scss */
 img {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
+
+/* line 135, ../../sass/base/elements.scss */
 ul,
 ol {
   margin: 0;
-  padding: 0 0 0.25em 1em; /* LTR */
-}
+  padding: 0 0 0.25em 1em;
+  /* LTR */ }
+
+/* line 140, ../../sass/base/elements.scss */
 [dir="rtl"] ul,
 [dir="rtl"] ol {
-  padding: 0 1em 0.25em 0;
-}
+  padding: 0 1em 0.25em 0; }
+
+/* line 144, ../../sass/base/elements.scss */
 ol ol,
 ul ul {
   margin: 0;
-  padding: 0 0 0.25em 1em; /* LTR */
-}
+  padding: 0 0 0.25em 1em;
+  /* LTR */ }
+
+/* line 149, ../../sass/base/elements.scss */
 [dir="rtl"] ol ol,
 [dir="rtl"] ul ul {
-  padding: 0 1em 0.25em 0;
-}
+  padding: 0 1em 0.25em 0; }
+
+/*# sourceMappingURL=elements.css.map */

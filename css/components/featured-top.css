@@ -2,7 +2,7 @@
  * @file
  * Visual styles for Bartik's featured top.
  */
-
+/* line 6, ../../sass/components/featured-top.scss */
 .featured-top {
   text-align: center;
   font-size: 1.2em;
@@ -13,13 +13,16 @@
   background: #f0f0f0;
   background: rgba(30, 50, 10, 0.08);
   border-bottom: 1px solid #e7e7e7;
-  text-shadow: 1px 1px #fff;
-}
+  text-shadow: 1px 1px #fff; }
+
+/* line 18, ../../sass/components/featured-top.scss */
 .featured-top h2 {
   font-size: 1.2em;
-  line-height: 1;
-}
+  line-height: 1; }
+
+/* line 22, ../../sass/components/featured-top.scss */
 .featured-top p {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+
+/*# sourceMappingURL=featured-top.css.map */

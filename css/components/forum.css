@@ -2,10 +2,12 @@
  * @file
  * Visual styles for forums in Bartik.
  */
-
+/* line 6, ../../sass/components/forum.scss */
 .forum__name {
-  font-size: 1.083em;
-}
+  font-size: 1.083em; }
+
+/* line 9, ../../sass/components/forum.scss */
 .forum__description {
-  font-size: 1em;
-}
+  font-size: 1em; }
+
+/*# sourceMappingURL=forum.css.map */

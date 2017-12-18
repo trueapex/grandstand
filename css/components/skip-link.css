@@ -2,7 +2,7 @@
  * @file
  * Styles for the skip link.
  */
-
+/* line 6, ../../sass/components/skip-link.scss */
 .skip-link {
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -17,9 +17,11 @@
   padding: 1px 10px 2px;
   border-radius: 0 0 10px 10px;
   border-bottom-width: 0;
-  outline: 0;
-}
+  outline: 0; }
+
+/* line 22, ../../sass/components/skip-link.scss */
 .skip-link.visually-hidden.focusable:focus {
   position: absolute !important;
-  color: #fff;
-}
+  color: #fff; }
+
+/*# sourceMappingURL=skip-link.css.map */

@@ -1,58 +1,60 @@
+/* line 1, ../sass/style.scss */
 body.path-user.user-not-logged-in #content .region {
   max-width: 380px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 6, ../sass/style.scss */
 body.path-contact #content .region {
   max-width: 620px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
+/* line 11, ../sass/style.scss */
 .product-full {
   display: table;
   box-sizing: border-box;
   width: 100%;
-  clear: both;
-}
+  clear: both; }
 
+/* line 18, ../sass/style.scss */
 div[class^="product--variation"].field--name-field-product-image .field__item {
   float: left;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 
+/* line 23, ../sass/style.scss */
 [class^="product--variation"].field--name-field-product-image .field__item:first-child {
-  float: none;
-}
+  float: none; }
 
+/* line 27, ../sass/style.scss */
 .product-image {
   float: left;
-  width: 33.33%;
-}
+  width: 33.33%; }
 
+/* line 32, ../sass/style.scss */
 .product-details {
   float: left;
-  width: 66.67%;
-}
+  width: 66.67%; }
 
+/* line 37, ../sass/style.scss */
 .field--name-sku {
   color: #a0a0a0;
-  margin: 0 0 1.2em 0;
-}
+  margin: 0 0 1.2em 0; }
 
+/* line 42, ../sass/style.scss */
 .field--name-price {
   font-size: 1.5em;
-  margin: 0 0 0.75em 0;
-}
+  margin: 0 0 0.75em 0; }
 
+/* line 47, ../sass/style.scss */
 .view-products {
   display: table;
   box-sizing: border-box;
   clear: both;
-  width: 100%;
-}
+  width: 100%; }
 
+/* line 54, ../sass/style.scss */
 .view-products .views-row {
   display: block;
   float: left;
-  width: 25%;
-}
+  width: 25%; }
+
+/*# sourceMappingURL=style.css.map */

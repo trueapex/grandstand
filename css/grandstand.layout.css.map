@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iDAAiD;ACAjD,oDAAoD;ACApD,8CAA8C",
+"sources": ["../sass/variables-slash-star-star-slash-star","../sass/abstractions-slash-star-star-slash-star","../sass/layout-slash-star-star-slash-star"],
+"names": [],
+"file": "grandstand.layout.css"
+}

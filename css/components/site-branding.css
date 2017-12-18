@@ -2,44 +2,47 @@
  * @file
  * Visual styles for the site branding block in Bartik.
  */
-
+/* line 6, ../../sass/components/site-branding.scss */
 .site-branding__logo {
   display: inline-block;
-  margin-right: 1em; /* LTR */
-  margin-bottom: 0.286em;
-}
+  margin-right: 1em;
+  /* LTR */
+  margin-bottom: 0.286em; }
+
+/* line 11, ../../sass/components/site-branding.scss */
 [dir="rtl"] .site-branding__logo {
   margin-right: 0;
-  margin-left: 1em;
-}
+  margin-left: 1em; }
+
+/* line 15, ../../sass/components/site-branding.scss */
 .site-branding__text {
   display: inline-block;
-  vertical-align: top;
-}
+  vertical-align: top; }
+
 @media all and (min-width: 461px) {
+  /* line 20, ../../sass/components/site-branding.scss */
   .site-branding__text {
-    margin-bottom: 1.857em;
-  }
-}
+    margin-bottom: 1.857em; } }
 @media all and (min-width: 901px) {
+  /* line 25, ../../sass/components/site-branding.scss */
   .site-branding__text {
-    padding: 1.286em 0 0;
-  }
-}
+    padding: 1.286em 0 0; } }
+/* line 29, ../../sass/components/site-branding.scss */
 .site-branding__name {
   font-size: 1.6em;
   color: #686868;
-  line-height: 1;
-}
+  line-height: 1; }
+
 @media all and (min-width: 901px) {
+  /* line 35, ../../sass/components/site-branding.scss */
   .site-branding__name {
-    font-size: 1.821em;
-  }
-}
+    font-size: 1.821em; } }
+/* line 39, ../../sass/components/site-branding.scss */
 .site-branding__slogan {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.929em;
   margin-top: 7px;
   word-spacing: 0.1em;
-  font-style: italic;
-}
+  font-style: italic; }
+
+/*# sourceMappingURL=site-branding.css.map */

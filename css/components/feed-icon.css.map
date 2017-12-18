@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,UAAW;EACT,aAAa,EAAE,qBAAqB;EACpC,OAAO,EAAE,YAAY;EACrB,cAAc,EAAE,GAAG;;;AAGrB;gBACiB;EACf,YAAY,EAAE,OAAO",
+"sources": ["../../sass/components/feed-icon.scss"],
+"names": [],
+"file": "feed-icon.css"
+}

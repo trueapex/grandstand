@@ -2,11 +2,13 @@
  * @file
  * Styles for Bartik's highlighted component.
  */
-
+/* line 6, ../../sass/components/highlighted.scss */
 .has-featured-top .region-highlighted {
   background: #f0f0f0;
-  background: rgba(30, 50, 10, 0.08);
-}
+  background: rgba(30, 50, 10, 0.08); }
+
+/* line 10, ../../sass/components/highlighted.scss */
 .region-highlighted {
-  margin: 0 15px;
-}
+  margin: 0 15px; }
+
+/*# sourceMappingURL=highlighted.css.map */

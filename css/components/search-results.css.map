@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,eAAgB;EACd,OAAO,EAAE,CAAC;EACV,mBAAmB,EAAE,MAAM;;;AAE7B,kBAAmB;EACjB,aAAa,EAAE,iBAAiB;EAChC,cAAc,EAAE,QAAQ;EACxB,aAAa,EAAE,KAAK;;;AAEtB,6BAA8B;EAC5B,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,CAAC;EACjB,aAAa,EAAE,GAAG;;;AAEpB,qBAAsB;EACpB,WAAW,EAAE,IAAI;;;AAEnB,4BAA6B;EAC3B,YAAY,EAAE,CAAC;EAAE,SAAS;;;AAE5B,wCAAyC;EACvC,aAAa,EAAE,CAAC",
+"sources": ["../../sass/components/search-results.scss"],
+"names": [],
+"file": "search-results.css"
+}

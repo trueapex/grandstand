@@ -2,7 +2,7 @@
  * @file
  * Styles for Bartik's buttons.
  */
-
+/* line 6, ../../sass/components/buttons.scss */
 .button {
   background-color: #fff;
   background-image: -webkit-linear-gradient(top, #f3f3f3, #e8e8e8);
@@ -20,15 +20,17 @@
   padding: 0.250em 1.063em;
   border-radius: 1em;
   display: inline-block;
-  line-height: normal;
-}
+  line-height: normal; }
+
+/* line 25, ../../sass/components/buttons.scss */
 .button:hover,
 .button:active,
 .button:focus {
   background: #dedede;
   color: #5a5a5a;
-  text-decoration: none;
-}
+  text-decoration: none; }
+
+/* line 32, ../../sass/components/buttons.scss */
 .button.is-disabled:hover,
 .button.is-disabled:active,
 .button.is-disabled:focus,
@@ -36,5 +38,6 @@
   background: #ededed;
   border-color: #bbb;
   color: #717171;
-  cursor: default;
-}
+  cursor: default; }
+
+/*# sourceMappingURL=buttons.css.map */

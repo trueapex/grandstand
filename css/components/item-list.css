@@ -2,28 +2,35 @@
  * @file
  * Visual styles for Bartik's item list.
  */
-
+/* line 6, ../../sass/components/item-list.scss */
 .item-list ul {
   list-style: none;
   margin: 0 0 0.25em 0;
-  padding: 0; /* LTR */
-}
-[dir="rtl"] .item-list ul {
   padding: 0;
-}
+  /* LTR */ }
+
+/* line 11, ../../sass/components/item-list.scss */
+[dir="rtl"] .item-list ul {
+  padding: 0; }
+
+/* line 14, ../../sass/components/item-list.scss */
 .item-list ul li {
   /* This is needed to reset styles in item-list.theme.css */
   margin: 0;
-  padding: 0.2em 0.5em 0 0; /* LTR */
-}
+  padding: 0.2em 0.5em 0 0;
+  /* LTR */ }
+
+/* line 19, ../../sass/components/item-list.scss */
 [dir="rtl"] .item-list ul li {
   /* This is needed to reset [dir="rtl"] styles in item-list.theme.css */
   margin: 0;
-  padding: 0.2em 0 0 0.5em;
-}
+  padding: 0.2em 0 0 0.5em; }
+
+/* line 24, ../../sass/components/item-list.scss */
 .item-list .item-list__comma-list,
 .item-list .item-list__comma-list li,
 [dir="rtl"] .item-list .item-list__comma-list,
 [dir="rtl"] .item-list .item-list__comma-list li {
-  padding: 0;
-}
+  padding: 0; }
+
+/*# sourceMappingURL=item-list.css.map */

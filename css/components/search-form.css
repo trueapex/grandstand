@@ -2,20 +2,25 @@
  * @file
  * The visual styles for Bartik's search form(s).
  */
-
+/* line 6, ../../sass/components/search-form.scss */
 .search-form {
-  font-size: 0.875rem;
-}
+  font-size: 0.875rem; }
+
+/* line 9, ../../sass/components/search-form.scss */
 .search-form .form-search {
-  float: left; /* LTR */
-  margin-right: 5px; /* LTR */
-  padding: 4px;
-}
+  float: left;
+  /* LTR */
+  margin-right: 5px;
+  /* LTR */
+  padding: 4px; }
+
+/* line 14, ../../sass/components/search-form.scss */
 [dir="rtl"] .search-form .form-search {
   float: right;
   margin-left: 5px;
-  margin-right: 0;
-}
+  margin-right: 0; }
+
+/* line 19, ../../sass/components/search-form.scss */
 .button.search-form__submit,
 .search-form__submit {
   background: #f0f0f0 url(../../../../core/misc/icons/505050/loupe.svg) no-repeat center;
@@ -27,14 +32,17 @@
   padding: 0;
   text-indent: -9999px;
   direction: ltr;
-  width: 34px;
-}
+  width: 34px; }
+
+/* line 32, ../../sass/components/search-form.scss */
 .button.search-form__submit:hover,
 .search-form__submit:hover,
 .button.search-form__submit:focus,
 .search-form__submit:focus {
-  background: #dedede url(../../../../core/misc/icons/424242/loupe.svg) no-repeat center;
-}
+  background: #dedede url(../../../../core/misc/icons/424242/loupe.svg) no-repeat center; }
+
+/* line 38, ../../sass/components/search-form.scss */
 .search-form .form-item-keys label {
-  display: block;
-}
+  display: block; }
+
+/*# sourceMappingURL=search-form.css.map */

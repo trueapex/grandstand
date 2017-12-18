@@ -2,62 +2,72 @@
 * @file
 * Visual styles for Bartik's featured bottom component.
 */
-
+/* line 6, ../../sass/components/featured-bottom.scss */
 .featured-bottom {
   background: rgba(30, 50, 10, 0.08);
-  border-top: 1px solid #e7e7e7;
-}
+  border-top: 1px solid #e7e7e7; }
+
+/* line 10, ../../sass/components/featured-bottom.scss */
 .featured-bottom .region {
-  padding: 0 20px;
-}
+  padding: 0 20px; }
+
 @media all and (min-width: 560px) {
+  /* line 14, ../../sass/components/featured-bottom.scss */
   .featured-bottom .region {
-    float: left; /* LTR */
+    float: left;
+    /* LTR */
     position: relative;
     box-sizing: border-box;
     padding: 20px 15px 30px;
-    width: 33%;
-  }
+    width: 33%; }
+
+  /* line 21, ../../sass/components/featured-bottom.scss */
   [dir="rtl"] .featured-bottom .region {
-    float: right;
-  }
-}
+    float: right; } }
 @media all and (min-width: 851px) {
+  /* line 26, ../../sass/components/featured-bottom.scss */
   .featured-bottom .region {
-    padding: 0 20px;
-  }
-}
+    padding: 0 20px; } }
+/* line 30, ../../sass/components/featured-bottom.scss */
 .featured-bottom h2 {
   color: #000;
   font-size: 1.4em;
   margin-bottom: 0.6em;
   text-shadow: 0 1px 0 #fff;
   text-align: center;
-  line-height: 1em;
-}
+  line-height: 1em; }
+
+/* line 38, ../../sass/components/featured-bottom.scss */
 .featured-bottom .block {
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid #dfdfdf;
-  line-height: 1.3em;
-}
+  line-height: 1.3em; }
+
+/* line 44, ../../sass/components/featured-bottom.scss */
 .featured-bottom .block:last-child {
-  border-bottom: none;
-}
+  border-bottom: none; }
+
+/* line 47, ../../sass/components/featured-bottom.scss */
 .featured-bottom ul,
 .featured-bottom ol {
-  padding-left: 0;
-}
+  padding-left: 0; }
+
+/* line 51, ../../sass/components/featured-bottom.scss */
 .featured-bottom ul li,
 .featured-bottom ol li {
-  list-style: none;
-}
+  list-style: none; }
+
+/* line 55, ../../sass/components/featured-bottom.scss */
 .featured-bottom input:not(.form-submit) {
-  width: 185px;
-}
+  width: 185px; }
+
+/* line 58, ../../sass/components/featured-bottom.scss */
 .region-featured-bottom-third .feed-icon {
-  float: right;
-}
+  float: right; }
+
+/* line 61, ../../sass/components/featured-bottom.scss */
 .region-featured-bottom-second .block-system-powered-by-block {
-  text-align: center;
-}
+  text-align: center; }
+
+/*# sourceMappingURL=featured-bottom.css.map */

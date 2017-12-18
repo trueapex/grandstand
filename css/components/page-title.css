@@ -2,8 +2,9 @@
  * @file
  * Visual styles for Bartik's page-title component.
  */
-
+/* line 6, ../../sass/components/page-title.scss */
 .page-title {
   font-size: 2em;
-  line-height: 1em;
-}
+  line-height: 1em; }
+
+/*# sourceMappingURL=page-title.css.map */

@@ -2,14 +2,15 @@
  * @file
  * Feed icon styles for Bartik.
  */
-
+/* line 6, ../../sass/components/feed-icon.scss */
 .feed-icon {
   border-bottom: 1px solid transparent;
   display: inline-block;
-  padding-bottom: 2px;
-}
+  padding-bottom: 2px; }
 
+/* line 12, ../../sass/components/feed-icon.scss */
 .feed-icon:focus,
 .feed-icon:hover {
-  border-color: #018fe2;
-}
+  border-color: #018fe2; }
+
+/*# sourceMappingURL=feed-icon.css.map */

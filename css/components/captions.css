@@ -1,31 +1,40 @@
+@charset "UTF-8";
 /* -------------- Captions -------------- */
+/* line 2, ../../sass/components/captions.scss */
 .caption {
-  margin-bottom: 1.2em;
-}
+  margin-bottom: 1.2em; }
+
+/* line 5, ../../sass/components/captions.scss */
 .caption > * {
   background: #F3F3F3;
   padding: 0.5ex;
-  border: 1px solid #CCC;
-}
+  border: 1px solid #CCC; }
+
+/* line 10, ../../sass/components/captions.scss */
 .caption > figcaption {
   border: 1px solid #CCC;
   border-top: none;
   padding-top: 0.5ex;
   font-size: small;
-  text-align: center;
-}
+  text-align: center; }
 
 /* Override Bartik's default blockquote and pre styles when captioned. */
+/* line 19, ../../sass/components/captions.scss */
 .caption-pre > pre,
 .caption-blockquote > blockquote {
-  margin: 0;
-}
+  margin: 0; }
+
+/* line 23, ../../sass/components/captions.scss */
 .caption-blockquote > figcaption::before {
-  content: "— ";
-}
+  content: "— "; }
+
+/* line 26, ../../sass/components/captions.scss */
 .caption-blockquote > figcaption {
-  text-align: left; /* LTR */
-}
+  text-align: left;
+  /* LTR */ }
+
+/* line 29, ../../sass/components/captions.scss */
 [dir="rtl"] .caption-blockquote > figcaption {
-  text-align: right;
-}
+  text-align: right; }
+
+/*# sourceMappingURL=captions.css.map */

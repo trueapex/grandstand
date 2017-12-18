@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,kBAAmB;EACjB,OAAO,EAAE,cAAc;EACvB,WAAW,EAAE,8CAA8C;EAC3D,MAAM,EAAE,KAAK;;;AAEf,8BAA+B;EAC7B,OAAO,EAAE,cAAc",
+"sources": ["../../sass/components/messages.scss"],
+"names": [],
+"file": "messages.css"
+}

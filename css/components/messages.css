@@ -2,12 +2,14 @@
  * @file
  * Styles for Bartik's messages.
  */
-
+/* line 6, ../../sass/components/messages.scss */
 .messages__wrapper {
   padding: 20px 0 5px 8px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 8px 0;
-}
+  margin: 8px 0; }
+
+/* line 11, ../../sass/components/messages.scss */
 [dir="rtl"] .messages__wrapper {
-  padding: 20px 8px 5px 0;
-}
+  padding: 20px 8px 5px 0; }
+
+/*# sourceMappingURL=messages.css.map */

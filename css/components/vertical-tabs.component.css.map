@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;AAEH,yBAAyB;;AACzB,oBAAqB;EACnB,MAAM,EAAE,iBAAiB;EAAE,SAAS;EACpC,OAAO,EAAE,CAAC;;;AAEZ,gCAAiC;EAC/B,WAAW,EAAE,CAAC;EACd,YAAY,EAAE,KAAK;EACnB,6EAA6E;EAC7E,OAAO,EAAE,CAAC",
+"sources": ["../../sass/components/vertical-tabs.component.scss"],
+"names": [],
+"file": "vertical-tabs.component.css"
+}

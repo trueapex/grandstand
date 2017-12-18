@@ -1,67 +1,79 @@
 /* ------------------ Sidebar ----------------- */
-
 @media all and (min-width: 560px) {
+  /* line 4, ../../sass/components/sidebar.scss */
   .sidebar {
-    float: left; /* LTR */
+    float: left;
+    /* LTR */
     position: relative;
-    width: 50%;
-  }
+    width: 50%; }
+
+  /* line 9, ../../sass/components/sidebar.scss */
   [dir="rtl"] .sidebar {
-    float: right;
-  }
+    float: right; }
+
+  /* line 12, ../../sass/components/sidebar.scss */
   .layout-one-sidebar .sidebar {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 @media all and (min-width: 851px) {
+  /* line 17, ../../sass/components/sidebar.scss */
   .layout-one-sidebar .sidebar {
-    width: 25%;
-  }
+    width: 25%; }
+
+  /* line 20, ../../sass/components/sidebar.scss */
   #sidebar-first {
     width: 25%;
-    margin-left: -100%; /* LTR */
-  }
+    margin-left: -100%;
+    /* LTR */ }
+
+  /* line 24, ../../sass/components/sidebar.scss */
   [dir="rtl"] #sidebar-first {
     margin-right: -100%;
-    margin-left: 0;
-  }
+    margin-left: 0; }
+
+  /* line 28, ../../sass/components/sidebar.scss */
   #sidebar-second {
     width: 25%;
-    margin-left: -25%; /* LTR */
-    clear: none;
-  }
+    margin-left: -25%;
+    /* LTR */
+    clear: none; }
+
+  /* line 33, ../../sass/components/sidebar.scss */
   [dir="rtl"] #sidebar-second {
     margin-right: -25%;
-    margin-left: 0;
-  }
-}
-
+    margin-left: 0; } }
+/* line 39, ../../sass/components/sidebar.scss */
 .sidebar .section {
-  padding: 10px 15px 0;
-}
+  padding: 10px 15px 0; }
+
+/* line 42, ../../sass/components/sidebar.scss */
 .sidebar .block {
   border-style: solid;
   border-width: 1px;
   padding: 15px 20px;
-  margin: 0 0 20px;
-}
+  margin: 0 0 20px; }
+
+/* line 48, ../../sass/components/sidebar.scss */
 .sidebar h2 {
   margin: 0 0 0.5em;
   border-bottom: 1px solid #d6d6d6;
   padding-bottom: 5px;
   text-shadow: 0 1px 0 #fff;
   font-size: 1.071em;
-  line-height: 1.2;
-}
+  line-height: 1.2; }
+
+/* line 56, ../../sass/components/sidebar.scss */
 .sidebar .block .content {
   font-size: 0.914em;
-  line-height: 1.4;
-}
+  line-height: 1.4; }
+
+/* line 60, ../../sass/components/sidebar.scss */
 .sidebar tbody {
-  border: none;
-}
+  border: none; }
+
+/* line 63, ../../sass/components/sidebar.scss */
 .sidebar tr.even,
 .sidebar tr.odd {
   background: none;
-  border-bottom: 1px solid #d6d6d6;
-}
+  border-bottom: 1px solid #d6d6d6; }
+
+/*# sourceMappingURL=sidebar.css.map */

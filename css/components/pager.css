@@ -2,41 +2,52 @@
  * @file
  * Styles for Bartik's pagination.
  */
-
 /* Using .pager selector on the first one to override .region-content ul. */
+/* line 7, ../../sass/components/pager.scss */
 .pager .pager__items {
   padding: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 11, ../../sass/components/pager.scss */
 .pager__item {
   font-size: 0.929em;
-  padding: 10px 15px;
-}
+  padding: 10px 15px; }
+
+/* line 15, ../../sass/components/pager.scss */
 .pager__item a {
-  display: inline-block;
-}
+  display: inline-block; }
+
+/* line 18, ../../sass/components/pager.scss */
 .pager__item.is-active a {
   color: #3b3b3b;
-  border-bottom: 0;
-}
+  border-bottom: 0; }
+
+/* line 22, ../../sass/components/pager.scss */
 .pager__item--first,
 .pager__item--previous {
-  padding: 10px 10px 10px 0; /* LTR */
-}
+  padding: 10px 10px 10px 0;
+  /* LTR */ }
+
+/* line 26, ../../sass/components/pager.scss */
 [dir="rtl"] .pager__item--first,
 [dir="rtl"] .pager__item--previous {
   padding-left: 10px;
-  padding-right: 0;
-}
+  padding-right: 0; }
+
+/* line 31, ../../sass/components/pager.scss */
 .pager__item--ellipsis {
-  padding: 10px 0;
-}
+  padding: 10px 0; }
+
+/* line 34, ../../sass/components/pager.scss */
 .pager__item--last,
 .pager__item--next {
-  padding: 10px 0 10px 10px; /* LTR */
-}
+  padding: 10px 0 10px 10px;
+  /* LTR */ }
+
+/* line 38, ../../sass/components/pager.scss */
 [dir="rtl"] .pager__item--last,
 [dir="rtl"] .pager__item--next {
   padding-left: 0;
-  padding-right: 10px;
-}
+  padding-right: 10px; }
+
+/*# sourceMappingURL=pager.css.map */

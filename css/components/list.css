@@ -2,12 +2,13 @@
  * @file
  * Visual styles for Bartik's lists.
  */
-
+/* line 6, ../../sass/components/list.scss */
 ul.links {
   color: #68696b;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.821em;
   padding: 0;
   margin: 0;
-  list-style: none;
-}
+  list-style: none; }
+
+/*# sourceMappingURL=list.css.map */

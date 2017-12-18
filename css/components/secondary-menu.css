@@ -1,26 +1,33 @@
 /* --------------- Secondary Menu ------------ */
-
+/* line 3, ../../sass/components/secondary-menu.scss */
 .region-secondary-menu .menu {
-  text-align: right; /* LTR */
+  text-align: right;
+  /* LTR */
   font-size: 0.929em;
   margin: 0 10px;
-  padding: 0;
-}
+  padding: 0; }
+
+/* line 9, ../../sass/components/secondary-menu.scss */
 [dir="rtl"] .region-secondary-menu .menu {
   text-align: left;
-  margin-right: 10px; /* required to win over specificity of [dir="rtl"] ul.menu */
-  margin-left: 10px;
-}
+  margin-right: 10px;
+  /* required to win over specificity of [dir="rtl"] ul.menu */
+  margin-left: 10px; }
+
+/* line 14, ../../sass/components/secondary-menu.scss */
 .region-secondary-menu .menu-item {
   margin: 0;
   padding: 0;
-  display: inline;
-}
+  display: inline; }
+
+/* line 19, ../../sass/components/secondary-menu.scss */
 .region-secondary-menu .menu a {
   display: inline-block;
-  padding:  0.8em;
-}
+  padding: 0.8em; }
+
+/* line 23, ../../sass/components/secondary-menu.scss */
 .region-secondary-menu .menu a:hover,
 .region-secondary-menu .menu a:focus {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
+
+/*# sourceMappingURL=secondary-menu.css.map */

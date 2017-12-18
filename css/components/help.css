@@ -2,9 +2,10 @@
  * @file
  * Styles for the help block.
  */
-
+/* line 6, ../../sass/components/help.scss */
 .block-help {
   border: 1px solid #d3d7d9;
   padding: 0 1.5em;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=help.css.map */

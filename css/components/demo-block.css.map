@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,WAAY;EACV,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,kBAAkB;EAC1B,KAAK,EAAE,IAAI;EACX,IAAI,EAAE,sDAAsD;EAC5D,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;EACZ,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;;;AAEnB,yBAA0B;EACxB,SAAS,EAAE,MAAM",
+"sources": ["../../sass/components/demo-block.scss"],
+"names": [],
+"file": "demo-block.css"
+}

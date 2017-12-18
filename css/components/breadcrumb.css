@@ -2,11 +2,13 @@
  * @file
  * Styles for Bartik's breadcrumbs.
  */
-
+/* line 6, ../../sass/components/breadcrumb.scss */
 .breadcrumb {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 0.929em;
-}
+  font-size: 0.929em; }
+
+/* line 10, ../../sass/components/breadcrumb.scss */
 .region-breadcrumb {
-  padding: 0 15px 0.25em;
-}
+  padding: 0 15px 0.25em; }
+
+/*# sourceMappingURL=breadcrumb.css.map */

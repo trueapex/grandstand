@@ -2,68 +2,80 @@
  * @file
  * Visual styles for Bartik's node component.
  */
-
+/* line 6, ../../sass/components/node.scss */
 .node__content {
   font-size: 1.071em;
-  margin-top: 10px;
-}
+  margin-top: 10px; }
 
 /* View mode teaser styles. */
+/* line 12, ../../sass/components/node.scss */
 .node--view-mode-teaser {
   border-bottom: 1px solid #d3d7d9;
   margin-bottom: 30px;
-  padding-bottom: 15px;
-}
+  padding-bottom: 15px; }
+
+/* line 17, ../../sass/components/node.scss */
 .node--view-mode-teaser h2 {
   margin-top: 0;
-  padding-top: 0.5em;
-}
+  padding-top: 0.5em; }
+
+/* line 21, ../../sass/components/node.scss */
 .node--view-mode-teaser h2 a {
-  color: #181818;
-}
+  color: #181818; }
+
+/* line 24, ../../sass/components/node.scss */
 .node--view-mode-teaser.node--sticky {
   background: #f9f9f9;
   background: rgba(0, 0, 0, 0.024);
   border: 1px solid #d3d7d9;
-  padding: 0 15px 15px;
-}
+  padding: 0 15px 15px; }
+
+/* line 30, ../../sass/components/node.scss */
 .node--view-mode-teaser .node__content {
   clear: none;
   font-size: 1em;
-  line-height: 1.6;
-}
+  line-height: 1.6; }
 
 /* Node metadata styles. */
+/* line 37, ../../sass/components/node.scss */
 .node__meta {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.857em;
   color: #68696b;
-  margin-bottom: -5px;
-}
+  margin-bottom: -5px; }
+
+/* line 43, ../../sass/components/node.scss */
 .node__meta .field--name-user-picture img {
-  float: left; /* LTR */
-  margin: 1px 20px 0 0; /* LTR */
-}
+  float: left;
+  /* LTR */
+  margin: 1px 20px 0 0;
+  /* LTR */ }
+
+/* line 47, ../../sass/components/node.scss */
 [dir="rtl"] .node__meta .field--name-user-picture img {
   float: right;
   margin-left: 20px;
-  margin-right: 0;
-}
+  margin-right: 0; }
 
 /* Node links styles. */
+/* line 54, ../../sass/components/node.scss */
 .node__links {
-  text-align: right; /* LTR */
-  font-size: 0.93em;
-}
+  text-align: right;
+  /* LTR */
+  font-size: 0.93em; }
+
+/* line 58, ../../sass/components/node.scss */
 [dir="rtl"] .node__links {
-  text-align: left;
-}
+  text-align: left; }
 
 /* Unpublished node styles. */
+/* line 63, ../../sass/components/node.scss */
 .node--unpublished {
-  padding: 20px 15px 0;
-}
+  padding: 20px 15px 0; }
+
+/* line 66, ../../sass/components/node.scss */
 .node--unpublished .comment-text .comment-arrow {
   border-left: 1px solid #fff4f4;
-  border-right: 1px solid #fff4f4;
-}
+  border-right: 1px solid #fff4f4; }
+
+/*# sourceMappingURL=node.css.map */

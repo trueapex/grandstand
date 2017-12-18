@@ -1,19 +1,20 @@
-
 /* ---------- General Layout ---------- */
-
+/* line 4, ../sass/print.scss */
 body,
 input,
 textarea,
 select {
   color: #000;
-  background: none;
-}
+  background: none; }
+
+/* line 11, ../sass/print.scss */
 body.two-sidebars,
 body.sidebar-first,
 body.sidebar-second,
 body {
-  width: 640px;
-}
+  width: 640px; }
+
+/* line 17, ../sass/print.scss */
 #sidebar-first,
 #sidebar-second,
 .navigation,
@@ -21,28 +22,31 @@ body {
 .site-footer,
 .tabs,
 .shortcut-action {
-  display: none;
-}
+  display: none; }
+
+/* line 26, ../sass/print.scss */
 .one-sidebar .main-content,
 .two-sidebars .main-content {
-  width: 100%;
-}
+  width: 100%; }
+
+/* line 30, ../sass/print.scss */
 .featured-bottom {
   width: 960px;
   margin: 0;
   padding: 0;
-  border: none;
-}
+  border: none; }
+
+/* line 36, ../sass/print.scss */
 .featured-bottom-first,
 .featured-bottom-second,
 .featured-bottom-third {
-  width: 250px;
-}
+  width: 250px; }
 
 /* ---------- Node Pages ---------- */
-
+/* line 44, ../sass/print.scss */
 #comments .title,
 #comments form,
 .comment-forbidden {
-  display: none;
-}
+  display: none; }
+
+/*# sourceMappingURL=print.css.map */

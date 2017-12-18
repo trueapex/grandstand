@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,MAAO;EACL,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,cAAc;EACtB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,SAAS;;;AAEpB,aAAc;EACZ,MAAM,EAAE,QAAQ;;;AAElB,eAAgB;EACd,OAAO,EAAE,aAAa;EAAE,SAAS;;;AAEnC,2BAA4B;EAC1B,aAAa,EAAE,GAAG;EAClB,YAAY,EAAE,GAAG",
+"sources": ["../../sass/components/panel.scss"],
+"names": [],
+"file": "panel.css"
+}

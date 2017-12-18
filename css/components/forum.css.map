@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;;AAEH,YAAa;EACX,SAAS,EAAE,OAAO;;;AAEpB,mBAAoB;EAClB,SAAS,EAAE,GAAG",
+"sources": ["../../sass/components/forum.scss"],
+"names": [],
+"file": "forum.css"
+}
