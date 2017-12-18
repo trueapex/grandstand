@@ -1,5 +1,5 @@
-# Front-end Development Tools
-Setting up your tools for doing front-end web development.
+# Grandstand
+A Drupal 8 eCommerce theme.
 
 ## Tools
 * RVM (https://rvm.io/)
